@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package tutorial;
+
+message Data {
+  required string words = 1;
+  repeated int32 list = 2;
+  map<string, string> dict = 3;
+  required int32 int = 4;
+  required float float = 5;
+}
